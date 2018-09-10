@@ -1,9 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFrameworks>net45;netcoreapp2.0</TargetFrameworks>
     <Authors>mullak99</Authors>
     <Company>mullak99</Company>
+    <PackageProjectUrl>https://github.com/mullak99/CoreChecksums</PackageProjectUrl>
+    <RepositoryUrl></RepositoryUrl>
+    <PackageLicenseUrl>https://www.gnu.org/licenses/gpl-3.0.en.html</PackageLicenseUrl>
+    <Copyright>GPL-3.0 | mullak99</Copyright>
+    <Description>A .NET Core 2.0 and .NET Framework 4.5 library used to grab and compare file checksums using various hashing algorithms.</Description>
+    <PackageReleaseNotes>- Builds for both .NET Framework and .NET Core</PackageReleaseNotes>
+    <PackageTags>checksum, checksums, md5, sha1, sha128, sha256, sha512, hashing</PackageTags>
+    <AssemblyVersion>1.1.1.0</AssemblyVersion>
+    <FileVersion>1.1.1.0</FileVersion>
+    <Version>1.1.1</Version>
   </PropertyGroup>
 
 </Project>
